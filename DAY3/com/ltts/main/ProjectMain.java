@@ -162,7 +162,7 @@ System.out.println("***USER MENU***");
 					pd.showPlayer();
 				}
 			}
-            
+        
          
             if(choice4==2)
             {
@@ -210,7 +210,7 @@ System.out.println("***USER MENU***");
 					System.out.println("--------------------");
 					td.showTeam();
 			     }
-			     if(choice6==1)
+			     if(choice6==4)
 			     {
 			    	 System.out.println("ENTER THE TEAMID  YOU WANT TO UPDATE - ");
 			    	 int oteam=Integer.parseInt(br.readLine()); 
@@ -223,8 +223,8 @@ System.out.println("***USER MENU***");
 					td.showTeam();
 			     }
 		
-	}
-            
+	              }
+        }
             if(choice==4)
 			{
 			//System.out.println("Delete");
@@ -250,11 +250,9 @@ System.out.println("***USER MENU***");
 					System.out.println("--------------------");
 					td.showTeam();
 					
-				}
-			
-            
+				}      
             }
-        }
+
         
 }
 }
